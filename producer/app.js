@@ -97,7 +97,6 @@ function setUpHttpHandler() {
         }
         else {
             var isDuplicate = isDuplicateOperation(raspId, 0, "get")
-            console.log("Duplicate : " + isDuplicate);
             if (!isDuplicate) {
                 queue.operation.push({ description: "get", deviceId: "0", isProcessed: false, id: generateUUID() });
             }

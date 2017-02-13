@@ -18,7 +18,6 @@ callback = function (response) {
     });
 
     response.on('end', function () {
-        console.log("Triggered");
         processRequest();
         performOperation(str);
     });
