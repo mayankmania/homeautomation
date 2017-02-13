@@ -1,0 +1,22 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "description": "service for handling long polling request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayankmania/homeautomation.git"
+  },
+  "author": "Mayank Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mayankmania/homeautomation/issues"
+  },
+  "homepage": "https://github.com/mayankmania/homeautomation#readme",
+  "dependencies": {
+    "ms-gpio" : "3.0.0"
+  }
+}
